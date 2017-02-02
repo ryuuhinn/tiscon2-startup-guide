@@ -2,7 +2,6 @@
 ***
 ・[mvnが正常に動作しない (mvn --versionコマンドが失敗する)](#path_setting)  
 ・[IntelliJでのプロジェクトのcloneができない](#project_clone)  
-・[Make Projectでエラーが発生する](#sdk_setting)  
 
 ***
   
