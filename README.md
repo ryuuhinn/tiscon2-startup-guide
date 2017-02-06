@@ -20,7 +20,7 @@ Javaとは、プログラミング言語のJavaでプログラミングするの
 これをインストールすると、自分のPCでJavaのプログラムを動かすことができるようになります。
 
 * [Windowsマシン](installJavaWin.md)
-* [Mac](installJavaMac.md)
+* [Macマシン](installJavaMac.md)
 
 ### Maven
 
@@ -46,18 +46,19 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 1. IntelliJを起動し、Configure > Settings を選択します。
 ![プラグイン設定1](image/plugin_setteing1.png)
 
-1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、Browse repositories...ボタンを押下します。
+1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、 `Browse repositories...` ボタンを押下します。
 ![プラグイン設定2](image/plugin_setteing2.png)
 
 1. 検索バーに`Lombok`と入力し、Lombok Pluginを選択します。
-   右側に表示されるInstallボタンを押下してください。
-   ※検索結果が表示されない場合はプロキシ問題である可能性があります。
-   **[参考 - プロキシの設定](ProxyGuide.md)**を参照してください。
+右側に表示されるInstallボタンを押下してください。
+検索結果が表示されない場合はプロキシ問題である可能性があります。
+[参考 - プロキシの設定](ProxyGuide.md)を参照してください。
+![プラグイン設定3](image/plugin_setteing3.png)
 
 1. 同様に、検索バーに`Jackson`と入力し、Jackson Generator Pluginを選択します。
-   右側に表示されるInstallボタンを押下し、**IntelliJを再起動**してください。
+右側に表示されるInstallボタンを押下し、**IntelliJを再起動**してください。
 
-![プラグイン設定3](image/plugin_setteing3.png)
+
 ![プラグイン設定4](image/plugin_setteing4.png)
 
 ## 外部サービスの準備
@@ -65,6 +66,7 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 ### Heroku
 
 作ったアプリケーションを世界に公開するためのサイトです。こういうサービスはPaaSと呼ばれたりします。
+
 [herokuを使ってWebアプリケーションを公開しよう | dcom](http://www.dcom-web.co.jp/technology/heroku1/)を参考に、herokuのアカウント作成、heroku toolbeltのインストールを行って下さい。
 
 #### アカウント作成
@@ -85,19 +87,19 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 
 #### Gitの動作確認
 
-前項のHerokuのインストールが正常に完了すると、同時にGitがインストールされます。
+前項の[heroku toolbeltのインストール](#heroku-toolbeltのインストール)が正常に完了すると、同時にGitがインストールされます。
 正常にGitがインストールされているかを確認するために、以下の手順を実施してください。
 コマンドプロンプトを開き、
-`git --version`
+```git --version```
 と入力します。gitのバージョン情報が表示されれば正常にインストールできています。
 
 Windows-32bitの場合、heroku toolbeltのインストーラ実行時にgitのインストールが失敗する可能性があります。
 上記コマンドを実行してもバージョン情報が表示されない場合、gitのインストールに失敗しています。
-下記リンクからGitのインストーラをダウンロードして再度インストールしてください。
-[【Git For Windows】](https://git-for-windows.github.io/)
-※インストール時の設定は全て初期状態のままで大丈夫です。
+[Git For Windows](https://git-for-windows.github.io/)のサイトからGitのインストーラをダウンロードして再度インストールしてください。
 
-### Github
+インストール時の設定は全て初期状態のままで大丈夫です。
+
+### GitHub
 
 Gitリポジトリのホスティングサービスです。
 Gitに関して深く学びたい場合は、下記サイトを参照し理解に役立ててください。
@@ -106,17 +108,18 @@ Gitに関して深く学びたい場合は、下記サイトを参照し理解�
 - [【ギットクエスト】](http://unit8.net/gq/)
 
 ### アカウント作成
-下記サイトを参考に、**Githubのアカウント作成**を行って下さい。
-※GithubはSEのSNSであり、GithubアカウントはSEにとって名刺のようなものです。
- 一生モノのアカウント名に気を付けて作成してください。
+下記サイトを参考に、**GitHubのアカウント作成**を行って下さい。
+
+GithubはシステムエンジニアのSNSであり、GitHubアカウントはSEにとって名刺のようなものです。一生モノのアカウント名なので、気を付けて作成してください。
+
 [【GitHub アカウントの作成方法】](http://fnya.cocolog-nifty.com/blog/2014/01/github-185e.html)
 
 ## tiscon2のソースコードを手に入れる
 
 ### tiscon2のFork
 
-[Github](https://github.com/)にログインし、下記ページの右上にあるForkボタンを押下してください。
-[【tiscon2 - Githubページ】](https://github.com/tiscon/tiscon2)
+[GitHub](https://github.com/)にログインし、下記ページの右上にあるForkボタンを押下してください。
+[【tiscon2 | GitHub】](https://github.com/tiscon/tiscon2)
 
 ## 動作確認
 
@@ -125,7 +128,7 @@ Gitに関して深く学びたい場合は、下記サイトを参照し理解�
 ### IntelliJでプロジェクトをcloneする
 
 1. ユーザフォルダ配下にIdeaProjectsフォルダを作成します。(例) `C:\Users\ユーザ名\IdeaProjects`
-1. IntelliJを起動し、Check out from Version Control > Git を選択します。
+1. IntelliJを起動し、 `Check out from Version Control > Git` を選択します。
 1. Git Repository URLに `https://github.com/[Githubのユーザ名]/tiscon2.git` を入力します。
 1. Cloneボタンを押下します。
    ※「The parent path～」と表示されている場合、Parent Directory項目右の…ボタンを押下し、作成したIdeaProjectsフォルダを選択してください。
