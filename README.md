@@ -52,7 +52,7 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
 右側に表示されるInstallボタンを押下してください。
 検索結果が表示されない場合はプロキシの問題である可能性があります。
-[参考 - プロキシの設定](ProxyGuide.md)を参照してください。
+プロキシの設定([Windowsマシン](proxyForWin.md) / [Macマシン](proxyForMac.md))を参照してください。
 ![プラグイン設定3](image/plugin_setteing3.png)
 
 1. 同様に、検索バーに`Jackson`と入力し、Jackson Generator Pluginを選択します。
