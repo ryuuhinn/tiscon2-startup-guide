@@ -39,7 +39,7 @@ echo 'export HTTP_PROXY=https://${your.proxy.host}:${your-proxy-port} >> ~/.bash
 echo 'export HTTPS_PROXY=https://${your.proxy.host}:${your-proxy-port} >> ~/.bashrc'
 ```
 
-を実行してください。その時 `your.proxy.host` は
+を実行してください。その時 `your.proxy.host` は事前にメモしたプロキシサーバのホスト名を、 `your-proxy-port` はポート番号に書き換えてください。
 
 他の*shをを使っている方は自身の環境に合った設定ファイルに設定を追加してください。
 
