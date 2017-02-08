@@ -17,14 +17,14 @@ Mavenのプロキシ設定は、[Apache Maven3 (3.2.5) インストール手順]
 ## IntelliJでのプロキシ設定
 
 1. IntelliJのWelcome画面(または `メニューバー > File` )からSettingsを選択します。
-![IntelliJのプロキシ設定1](image/proxy_setteing_IntelliJ1.png)
+![IntelliJのプロキシ設定1](image/proxy_setting_IntelliJ1.png)
 
 1. Settingsウィンドウが表示されるので、左のバーから `Appearance & Behavior > 一般 > HTTP Proxy` を選択します。
 
 1. 「HTTPプロキシを使用する」を選択し、各自の設定を記載します。
 
 1. 下部OKボタンを押下します。
-![IntelliJのプロキシ設定2](image/proxy_setteing_IntelliJ2.png)
+![IntelliJのプロキシ設定2](image/proxy_setting_IntelliJ2.png)
 
 ## Heroku動作のためのプロキシ設定
 
