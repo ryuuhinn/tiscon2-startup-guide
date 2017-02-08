@@ -14,7 +14,7 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 
 ## プラグインの設定
 
-1. IntelliJを起動し、Configure > Settings を選択します。
+1. もし起動していなかったら `Finder` > `アプリケーション` からIntelliJを起動し、`Configure` > `Settings` を選択します。
 ![プラグイン設定1](image/plugin_setting1.png)
 
 1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、 `Browse repositories...` ボタンを押下します。
@@ -23,5 +23,5 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
 右側に表示されるInstallボタンを押下してください。
 検索結果が表示されない場合はプロキシの問題である可能性があります。
-プロキシの設定([Windowsマシン](proxyForWin.md) / [Macマシン](proxyForMac.md))を参照してください。
+[プロキシの設定](proxyForMac.md)を参照してください。
 ![プラグイン設定3](image/plugin_setting3.png)
