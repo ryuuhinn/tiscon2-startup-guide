@@ -11,7 +11,7 @@
 ## 自分のPCでプログラミングする時の便利設定
 
 * [Windowsマシンで開発を始める前に](preparationForWin.md)
-* Macでは特にありません。
+* [Macマシンで開発を始める前に](preparationForMac.md)
 
 ## ツールのインストール
 
