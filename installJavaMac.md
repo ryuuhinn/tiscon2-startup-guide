@@ -1,8 +1,14 @@
 # Javaのインストール(Mac)
 
+## 前提条件
+
+* あなたはプロキシ環境下で作業をしていますか？
+
+## インストール
+
 [MacでのJavaのインストール方法 | java.com](https://java.com/ja/download/help/mac_install.xml)の手順に従ってください。
 
-手順を終えたあとに、
+## インストールできたら
 
 ```sh
 > echo $JAVA_HOME
