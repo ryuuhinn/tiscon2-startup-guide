@@ -40,7 +40,7 @@ mvn archetype:generate
 
 ## インストールできたら
 
-[Terminalを起動](tipsForMac.md#Terminalの起動方法)して
+[Terminalを起動](tipsForMac.md#terminalの起動方法)して
 ```sh
 mvn --version
 Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-11T01:41:47+09:00)
