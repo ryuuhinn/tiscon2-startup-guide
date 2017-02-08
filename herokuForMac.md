@@ -22,7 +22,7 @@
 
 前項の[heroku toolbeltのインストール](#heroku-toolbeltのインストール)が正常に完了すると、同時にGitがインストールされます。
 正常にGitがインストールされているかを確認するために、以下の手順を実施してください。
-[Terminalを起動](tipsForMac.md#Terminalの起動方法)して、
+[Terminalを起動](tipsForMac.md#terminalの起動方法)して、
 ```
 git --version
 ```

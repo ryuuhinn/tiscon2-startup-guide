@@ -2,8 +2,8 @@
 
 ## 前提条件
 
-* [Terminalを起動](tipsForMac.md#Terminalの起動方法)して `java -version` とコマンドを入力した時、結果が返ってきますか？
-* [Terminalを起動](tipsForMac.md#Terminalの起動方法)して `mvn --version` とコマンドを入力した時、結果が返ってきますか？
+* [Terminalを起動](tipsForMac.md#terminalの起動方法)して `java -version` とコマンドを入力した時、結果が返ってきますか？
+* [Terminalを起動](tipsForMac.md#terminalの起動方法)して `mvn --version` とコマンドを入力した時、結果が返ってきますか？
 * [あなたはプロキシ環境下で作業をしていますか？](preparationForMac.md#自分がプロキシ環境下にいるか知っておく)
 
 ## インストール

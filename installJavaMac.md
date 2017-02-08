@@ -10,7 +10,7 @@
 
 ## インストールできたら
 
-[Terminalを起動](tipsForMac.md#Terminalの起動方法) して
+[Terminalを起動](tipsForMac.md#terminalの起動方法) して
 ```sh
 > echo $JAVA_HOME
 /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home
