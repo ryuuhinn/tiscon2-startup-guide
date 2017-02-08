@@ -54,7 +54,8 @@ Gitリポジトリのホスティングサービスです。
 > * [Gitの基本 | サルでもわかるGit入門](http://www.backlog.jp/git-guide/intro/intro1_1.html)
 > * [ギットクエスト](http://unit8.net/gq/)
 
-* [GitHubのアカウント作成](readyForGitHub.md)
+* [Windowsマシン](githubForWin.md)
+* [Macマシン](githubForMac.md)
 
 ## tiscon2のソースコードを手に入れる
 
