@@ -2,7 +2,7 @@
 
 ## 前提条件
 
-
+* [GitHubのアカウントを持っていますか？](readyForGitHub.md)
 
 ## fork
 
