@@ -13,20 +13,6 @@
 
 IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita](http://qiita.com/makoto2468/items/6abf614b82cab865b745)が参考になります。
 
-## プラグインの設定
-
-1. もし起動していなかったら `Finder` > `アプリケーション` からIntelliJを起動し、`Configure` > `Settings` を選択します。
-![プラグイン設定1](image/plugin_setting1.png)
-
-1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、 `Browse repositories...` ボタンを押下します。
-![プラグイン設定2](image/plugin_setting2.png)
-
-1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
-右側に表示されるInstallボタンを押下してください。
-検索結果が表示されない場合はプロキシの問題である可能性があります。
-[プロキシの設定](proxyForMac.md)を参照してください。
-![プラグイン設定3](image/plugin_setting3.png)
-
 ## プロキシの設定
 
 プロキシ環境下で作業している場合、以下の手順でプロキシを設定してください。
@@ -40,3 +26,15 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 
 1. 下部OKボタンを押下します。
 ![IntelliJのプロキシ設定2](image/proxy_setting_IntelliJ2.png)
+
+## プラグインの設定
+
+1. もし起動していなかったら `Finder` > `アプリケーション` からIntelliJを起動し、`Configure` > `Settings` を選択します。
+![プラグイン設定1](image/plugin_setting1.png)
+
+1. Settingsウィンドウが表示されるので、左のバーからPluginsを選択し、 `Browse repositories...` ボタンを押下します。
+![プラグイン設定2](image/plugin_setting2.png)
+
+1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
+右側に表示されるInstallボタンを押下してください。
+![プラグイン設定3](image/plugin_setting3.png)
