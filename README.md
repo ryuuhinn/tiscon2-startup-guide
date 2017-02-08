@@ -43,7 +43,8 @@ Javaのプログラムを書くのに便利なすごいメモ帳です。これ1
 
 作ったアプリケーションを世界に公開するためのサイトです。こういうサービスはPaaSと呼ばれたりします。
 
-* [Herokuのアカウント作成とツールインストール](readyForHeroku.md)
+* [Windowsマシン](herokuForWin.md)
+* [Macマシン](herokuForMac.md)
 
 ### GitHub
 

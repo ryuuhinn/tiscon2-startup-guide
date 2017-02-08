@@ -2,7 +2,7 @@
 
 プログラミングをする時に自分のPCにやっておくと便利なことがいくつかあるので紹介します。
 
-## 自分のPCの情報を知っておく
+## 自分のPCのbit数を知っておく
 
 [Windowsの32bit版または64bit版のいずれを実行しているのか調べる](http://windows.microsoft.com/ja-jp/windows7/find-out-32-or-64-bit)を参考にすると、自分のPCで32bit版、64bit版のいずれを実行しているのかを調べられます。
 
