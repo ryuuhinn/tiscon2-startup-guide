@@ -32,7 +32,7 @@ Javaで書いたプログラムを簡単に動せるようにするためのソ�
 
 ### IntelliJ IDEA
 
-Javaのプログラムを書くのに便利なエディタ(すごいメモ帳)です。
+Javaのプログラムを書くのに便利なすごいメモ帳です。これ1つでJavaのプログラム開発に関わる様々な作業をまとめて実行できる優れものです。
 
 * [Windowsマシン](installIntelliJWin.md)
 * [Macマシン](intallIntellijMac.md)
