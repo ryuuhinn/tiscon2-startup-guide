@@ -5,10 +5,6 @@
 > **補足**
 > * インターン当日はプロキシ設定が無い状態で行います。
 
-## Mavenでのプロキシ設定
-
-Mavenのプロキシ設定は、[Apache Maven3 (3.2.5) インストール手順](http://weblabo.oscasierra.net/install-maven-32-windows/)の「手順.5」を参照してください。
-
 ## IntelliJでのプロキシ設定
 
 1. IntelliJのWelcome画面(または `メニューバー > File` )からSettingsを選択します。
