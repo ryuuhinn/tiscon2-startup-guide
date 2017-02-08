@@ -2,11 +2,13 @@
 
 ## 前提条件
 
-
+* [Terminalを起動](tipsForMac.md#Terminalの起動方法)して `java -version` とコマンドを入力した時、結果が返ってきますか？
+* [Terminalを起動](tipsForMac.md#Terminalの起動方法)して `mvn --version` とコマンドを入力した時、結果が返ってきますか？
+* [Terminalを起動](tipsForMac.md#Terminalの起動方法)して `git --version` とコマンドを入力した時、結果が返ってきますか？
 
 ## IntelliJでプロジェクトをcloneする
 
-1. ユーザフォルダ配下にIdeaProjectsフォルダを作成します。(例) `C:\Users\ユーザ名\IdeaProjects`
+1. ユーザフォルダ配下にIdeaProjectsフォルダを作成します。(例) `/Users/ユーザ名/IdeaProjects`
 1. IntelliJを起動し、 `Check out from Version Control > Git` を選択します。
 1. Git Repository URLに `https://github.com/[Githubのユーザ名]/tiscon2.git` を入力します。
 1. Cloneボタンを押下します。「The parent path～」と表示されている場合、Parent Directory項目右の `...` ボタンを押下し、作成したIdeaProjectsフォルダを選択してください。
@@ -20,7 +22,7 @@
 1. IntellijのWelcome画面からOpen を選択します。
 ![クローン時の手順2](image/clone2.png)
 
-1. "C:\Users\ユーザ名\IdeaProjects\tiscon2"を選択し、OKを押します。
+1. `/Users/ユーザ名/IdeaProjects/tiscon2` を選択し、OKを押します。
 ![クローン時の手順3](image/clone3.png)
 
 1. tiscon2プロジェクトが開けました。続いてソースコードを確認できるようにします。

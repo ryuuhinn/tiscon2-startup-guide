@@ -64,7 +64,8 @@ Gitリポジトリのホスティングサービスです。
 
 自分のPCでWebアプリケーションが正常に動作するかを確認します。
 
-* [自分のPCでtiscon2を動かす](operationCheck.md)
+* [Windowsマシン](operationCheckWin.md)
+* [Macマシン](operationCheckMac.md)
 
 ## オンライン上での動作確認
 
