@@ -23,12 +23,12 @@
 [コマンドプロンプトを起動](tipsForWin.md#コマンドプロンプトの起動方法)して、
 
 ```sh
-> echo %JAVA_HOME%
+C:\Users\yourUserName> echo %JAVA_HOME%
 C:\Program Files\Java\jdk1.8.0_91
 ```
 というように `echo` コマンドが動くことと、
 ```sh
-> java -version
+C:\Users\yourUserName> java -version
 java version "1.8.0_91"
 Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
