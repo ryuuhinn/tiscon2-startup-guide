@@ -35,7 +35,7 @@ Javaで書いたプログラムを簡単に動せるようにするためのソ�
 Javaのプログラムを書くのに便利なすごいメモ帳です。これ1つでJavaのプログラム開発に関わる様々な作業をまとめて実行できる優れものです。
 
 * [Windowsマシン](installIntelliJWin.md)
-* [Macマシン](intallIntelliJMac.md)
+* [Macマシン](installIntelliJMac.md)
 
 ## 外部サービスの準備
 
