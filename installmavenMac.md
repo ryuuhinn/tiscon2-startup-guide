@@ -9,11 +9,15 @@
 
 自分のMacで `Terminal.app` を起動します。
 
+```sh
+> which brew
+/usr/local/bin/brew
 ```
+というように表示されたらスキップしてください。 `brew not found` と言われた場合は以下のステップを実行してください。
+```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
-を実行して終了したらOKです。処理が終了した時に明らかにエラーと分かるような赤い文字などが出ていたら、インターン実施担当者まで問い合わせてください。
+を実行して終了したらOKです。処理が終了した時に明らかにエラーと分かるような赤い文字などが出ていたら、エラー内容と共にインターン実施担当者まで問い合わせてください。
 
 ## mavenのインストール
 
