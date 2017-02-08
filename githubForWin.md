@@ -9,11 +9,7 @@ GithubはシステムエンジニアのSNSであり、GitHubアカウントはSE
 
 ## [Git](https://git-scm.com/)の設定
 
-前項の[heroku toolbeltのインストール](#heroku-toolbeltのインストール)が正常に完了すると、同時に[Git](https://git-scm.com/)がインストールされます。
-
-### 動作確認
-
-正常に[Git](https://git-scm.com/)がインストールされているかを確認するために、以下の手順を実施してください。
+今後の作業内容をあなたのGitHubアカウントに紐付けられるようにします。
 
 IntelliJを起動して、 `Shift` キーを2回連続で押します。すると検索窓が表示されるので、
 
@@ -23,23 +19,9 @@ IntelliJを起動して、 `Shift` キーを2回連続で押します。する�
 
 ![terminalを探す](image/install_intellij_add_git_config_2.png)
 
-`Terminal` が検索結果に出てくるので、選択してください。するとTerminalの画面が表示されます。
-
-そこに
-
-```
-git --version
-```
-
-と入力します。gitのバージョン情報が表示されれば正常にインストールできています。
-
-### [Git](https://git-scm.com/)のユーザー設定
-
-前の手順で開いたTerminalに
-
+`Terminal` が検索結果に出てくるので、選択してください。するとコマンドプロンプトの画面が表示されるので
 ```sh
 git config user.name GitHubのユーザー名
 git config user.email GitHubのメールアドレス
 ```
-
-を入力してください。これで今後の作業内容をあなたのGitHubアカウントに紐付けることができるようになりました。
+を入力してください。
