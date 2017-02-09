@@ -2,7 +2,7 @@
 
 ## 前提条件
 
-* [GitHubのアカウントを持っていますか？](readyForGitHub.md)
+* GitHubのアカウントを持っていますか？[Windowsマシン](githubForWin.md) / [Macマシン](githubForMac.md)
 
 ## fork
 

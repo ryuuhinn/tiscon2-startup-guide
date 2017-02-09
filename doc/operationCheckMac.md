@@ -8,10 +8,10 @@
 
 ## IntelliJでプロジェクトをcloneする
 
-1. ユーザフォルダ配下にIdeaProjectsフォルダを作成します。(例) `/Users/ユーザ名/IdeaProjects`
+1. ユーザフォルダ配下に `IdeaProjects` フォルダを作成します。(例) `/Users/ユーザ名/IdeaProjects`
 1. IntelliJを起動し、 `Check out from Version Control > Git` を選択します。
 1. Git Repository URLに `https://github.com/[Githubのユーザ名]/tiscon2.git` を入力します。
-1. Cloneボタンを押下します。「The parent path～」と表示されている場合、Parent Directory項目右の `...` ボタンを押下し、作成したIdeaProjectsフォルダを選択してください。
+1. Cloneボタンを押下します。「The parent path～」と表示されている場合、Parent Directory項目右の `...` ボタンを押下し、作成した `IdeaProjects` フォルダを選択してください。
 1. 画面下部にステータスが表示されます。バーの表示が消えればcloneは完了です。下図のような画面が表示された場合、『No』を選択し、下記の手順に従ってcloneしたプロジェクトを開いてください。
 ![クローン時の手順1](image/clone1.png)
 

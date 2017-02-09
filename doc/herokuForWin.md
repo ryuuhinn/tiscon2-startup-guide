@@ -4,7 +4,7 @@
 
 ## 前提条件
 
-* [自身のPCが何bitのOSか知っていますか？](preparationForWin.md#自分のPCのbit数を知っておく)
+* [自身のPCが何bitのOSか知っていますか？](preparationForWin.md#自分のpcのbit数を知っておく)
 
 ## アカウント作成
 
