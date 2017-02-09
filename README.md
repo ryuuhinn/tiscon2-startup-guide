@@ -10,8 +10,8 @@
 
 ## 自分のPCでプログラミングする時の便利設定
 
-* [Windowsマシンで開発を始める前に](preparationForWin.md)
-* [Macマシンで開発を始める前に](preparationForMac.md)
+* [Windowsマシンで開発を始める前に](doc/preparationForWin.md)
+* [Macマシンで開発を始める前に](doc/preparationForMac.md)
 
 ## ツールのインストール
 
@@ -20,22 +20,22 @@
 プログラミング言語のJavaでプログラミングするのに必要なソフトウェアをインストールします。
 これをインストールすると、自分のPCでJavaのプログラムを動かすことができるようになります。
 
-* [Windowsマシン](installJavaWin.md)
-* [Macマシン](installJavaMac.md)
+* [Windowsマシン](doc/installJavaWin.md)
+* [Macマシン](doc/installJavaMac.md)
 
 ### Maven
 
 Javaで書いたプログラムを簡単に動せるようにするためのソフトウェアです。ビルドツールと呼ばれるツールの一種です。
 
-* [Windowsマシン](installMavenWin.md)
-* [Macマシン](installMavenMac.md)
+* [Windowsマシン](doc/installMavenWin.md)
+* [Macマシン](doc/installMavenMac.md)
 
 ### IntelliJ IDEA
 
 Javaのプログラムを書くのに便利なすごいメモ帳です。これ1つでJavaのプログラム開発に関わる様々な作業をまとめて実行できる優れものです。
 
-* [Windowsマシン](installIntelliJWin.md)
-* [Macマシン](installIntelliJMac.md)
+* [Windowsマシン](doc/installIntelliJWin.md)
+* [Macマシン](doc/installIntelliJMac.md)
 
 ## 外部サービスの準備
 
@@ -43,8 +43,8 @@ Javaのプログラムを書くのに便利なすごいメモ帳です。これ1
 
 作ったアプリケーションを世界に公開するためのサイトです。こういうサービスはPaaSと呼ばれたりします。
 
-* [Windowsマシン](herokuForWin.md)
-* [Macマシン](herokuForMac.md)
+* [Windowsマシン](doc/herokuForWin.md)
+* [Macマシン](doc/herokuForMac.md)
 
 ### GitHub
 
@@ -54,26 +54,26 @@ Gitリポジトリのホスティングサービスです。
 > * [Gitの基本 | サルでもわかるGit入門](http://www.backlog.jp/git-guide/intro/intro1_1.html)
 > * [ギットクエスト](http://unit8.net/gq/)
 
-* [Windowsマシン](githubForWin.md)
-* [Macマシン](githubForMac.md)
+* [Windowsマシン](doc/githubForWin.md)
+* [Macマシン](doc/githubForMac.md)
 
 ## tiscon2のソースコードを手に入れる
 
-* [tiscon2をforkする](forkTiscon2.md)
+* [tiscon2をforkする](doc/forkTiscon2.md)
 
 ## 動作確認
 
 自分のPCでWebアプリケーションが正常に動作するかを確認します。
 
-* [Windowsマシン](operationCheckWin.md)
-* [Macマシン](operationCheckMac.md)
+* [Windowsマシン](doc/operationCheckWin.md)
+* [Macマシン](doc/operationCheckMac.md)
 
 ## オンライン上での動作確認
 
 [Heroku](http://heroku.com/) 上でtiscon2が動くことを確認しましょう。
 
-* [Heroku上で動かしてみる](herokuCheck.md)
+* [Heroku上で動かしてみる](doc/herokuCheck.md)
 
 ## 作業に行き詰った場合
 
-* [作業に行き詰った場合](whenYouAreStuck.md)
+* [作業に行き詰った場合](doc/whenYouAreStuck.md)
