@@ -38,3 +38,18 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
 右側に表示されるInstallボタンを押下してください。
 ![プラグイン設定3](image/plugin_setting3.png)
+
+## SDKの設定
+
+1. [File]→[Project Structure...]を選択してください。
+![SDK設定1](image/install_intellij_sdk_setting_1.png)
+
+1. [Project SDK]という見出しの下にあるプルダウンが＜No SDK＞になっていると思いますので、【New...】→【JDK】を選択してください。
+![SDK設定2](image/install_intellij_sdk_setting_2.png)
+
+1. ご自身がインストールしたjdkの場所(C:\Program Files\Java\jdk1.8.x_xxx)を選択して[OK]を押下してください。
+![SDK設定3](image/install_intellij_sdk_setting_3.png)
+
+1. Project SDKが設定され、【1.8(java version "1.8.x_xxx")】が選択されるかと思います。  
+一つ下の項目「Project language level」は「8 - Lambdas, type annotations etc.」を選択し、[OK]を押下してください。
+![SDK設定4](image/install_intellij_sdk_setting_4.png)
