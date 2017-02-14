@@ -42,7 +42,9 @@ IntelliJを日本語化したい場合は、[IntelliJ IDEA 日本語化 | Qiita]
 ## SDKの設定
 
 1. [File]→[Project Structure...]を選択してください。
+Welcome画面から開く場合は[Configure]→[Project Defaults]⇒[Project Structure]と選択してください。
 ![SDK設定1](image/install_intellij_sdk_setting_1.png)
+![SDK設定５](image/install_intellij_sdk_setting_5.png)
 
 1. [Project SDK]という見出しの下にあるプルダウンが＜No SDK＞になっていると思いますので、【New...】→【JDK】を選択してください。
 ![SDK設定2](image/install_intellij_sdk_setting_2.png)
