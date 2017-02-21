@@ -36,6 +36,27 @@
 1. Project Viewよりプロジェクト内のソースコードが確認できるようになりました。
 ![ソースコードの確認](image/source_code_check2.png)
 
+## [Git](https://git-scm.com/)の設定
+
+今後の作業内容をあなたのGitHubアカウントに紐付けられるようにします。
+
+IntelliJを起動して、 `Shift` キーを2回連続で押します。すると検索窓が表示されるので、
+
+![検索窓](image/install_intellij_add_git_config_1.png)
+
+そこに `terminal` と入力します。
+
+![terminalを探す](image/install_intellij_add_git_config_2.png)
+
+`Terminal` が検索結果に出てくるので、選択してください。するとコマンドプロンプトの画面が表示されるので
+```sh
+git config user.name GitHubのユーザー名
+git config user.email GitHubのメールアドレス
+```
+を入力してください。  
+コマンド実行後、何もエラーメッセージが表示されなければ設定完了です。
+
+
 ## ローカルでの動作確認
 cloneしたwebアプリケーションが正常に動くか、ローカル上で動作確認を行います。
 
