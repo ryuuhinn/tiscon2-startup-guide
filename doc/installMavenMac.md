@@ -3,7 +3,6 @@
 ## 前提条件
 
 * [Terminalを起動](tipsForMac.md#terminalの起動方法)して `java -version` とコマンドを入力した時、結果が返ってきますか？
-* [プロキシ環境下で作業していますか？](preparationForMac.md#自分がプロキシ環境下にいるか知っておく)
 
 ## [brew](http://brew.sh/index_ja.html)のインストール
 
@@ -27,16 +26,6 @@ brew install maven
 ```
 
 処理が終了した時に :beer: のアイコンが出ていたらOKです。
-
-## プロキシの設定
-
-もしプロキシ環境下で作業をしている場合は、[Apache Maven3 (3.2.5) インストール手順](http://weblabo.oscasierra.net/install-maven-32-windows/)の「手順.5」を参照してプロキシの設定をしてください。
-
-設定が終わったら[Terminalを起動](tipsForMac.md#terminalの起動方法)して
-```sh
-mvn archetype:generate
-```
-と入力してみてください。 `BUILD FAILURE` と表示されなければOKです。 `Ctrl + C` でコマンドを強制終了してください。
 
 ## インストールできたら
 

@@ -3,7 +3,6 @@
 ## 前提条件
 
 * [コマンドプロンプトを起動](tipsForWin.md#コマンドプロンプトの起動方法)して `java -version` とコマンドを入力した時、結果が返ってきますか？
-* [あなたはプロキシ環境下で作業していますか？](preparationForWin.md#自分がプロキシ環境下にいるか知っておく)
 
 ## インストール
 
@@ -16,16 +15,6 @@
 > * 環境変数のパス設定には、展開先のパスを反映するよう注意してください。たとえば `C:\Program Files` 配下にフォルダを配置した場合、環境変数に設定するパスは `C:\Program Files\apache-maven-3.2.5\bin` となります。
 
 **[Apache Maven3 (3.2.5) インストール手順](http://weblabo.oscasierra.net/install-maven-32-windows/)**
-
-## プロキシの設定
-
-もしプロキシ環境下で作業をしている場合は、[Apache Maven3 (3.2.5) インストール手順](http://weblabo.oscasierra.net/install-maven-32-windows/)の「手順.5」を参照してプロキシの設定をしてください。
-
-設定が終わったら[コマンドプロンプトを起動](tipsForWin.md#コマンドプロンプトの起動方法)して、
-```sh
-mvn archetype:generate
-```
-と入力してみてください。 `BUILD FAILURE` と表示されなければOKです。 `Ctrl + C` でコマンドを強制終了してください。
 
 ## インストールできたら
 
