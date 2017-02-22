@@ -48,12 +48,12 @@ IntelliJを起動して、 `Shift` キーを2回連続で押します。する�
 
 ![terminalを探す](image/install_intellij_add_git_config_2.png)
 
-`Terminal` が検索結果に出てくるので、選択してください。するとコマンドプロンプトの画面が表示されるので
+`Terminal` が検索結果に出てくるので、選択してください。するとTerminalの画面が表示されるので
 ```sh
 git config user.name GitHubのユーザー名
 git config user.email GitHubのメールアドレス
 ```
-を入力してください。  
+を入力してください。
 コマンド実行後、何もエラーメッセージが表示されなければ設定完了です。
 
 
