@@ -56,7 +56,7 @@ forkできていなかった場合は、もう一度環境構築手順に従い�
 tiscon2が使っている別プログラムが読み込めていないかもしれません。プログラムをリフレッシュしましょう。
 
 1. IntelliJを開いてください。
-1. Shiftキーを2回カチカチッと叩くと、検索窓が表示されます。そこに「reimport all maven projects」と入力すると、そのような選択肢が出るのでそれを選択してください。
+1. Shiftキーを2回カチカチッと叩くと、検索窓が表示されます。そこに「reimport all maven projects」と入力すると、そのような選択肢が出るのでそれを選択してください。![reimport all maven projects](image/qa_reimport_all_maven_projects.png)
 1. IntelliJ の画面右下に「Resolving Maven Dependencies...」というようなメッセージと一緒に進行度合いを示すバーが表示されるので、それが消えるまで待ってください。
 1. これでプログラムの再読込ができました。再度動作確認をしてみてください。
 
