@@ -67,3 +67,6 @@ cloneしたwebアプリケーションが正常に動くか、ローカル上で
 起動後はブラウザから [http://localhost:3000](http://localhost:3000) にアクセスすることでトップページが開きます。
 ![Main実行2](image/operation_run_main2.png)
 ![Main実行3](image/operation_run_main3.png)
+
+1. 動作が確認できたらアプリケーションを終了しましょう。ウィンドウ左下の停止ボタンを押します。
+![Main実行4](image/operation_run_main4.png)
