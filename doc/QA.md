@@ -5,7 +5,7 @@
 * [IntelliJでのプロジェクトのcloneができない](#intellijでのプロジェクトのcloneができない)
 * [IntelliJのフォルダ表示と実際のフォルダ表示が違う](#intellijのフォルダ表示と実際の内容が違う)
 * [動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)
-
+* [パッケージ enkan.system がありません]()
 ***
 
 ## Windowsマシンで `mvn --version` コマンドが失敗する
@@ -85,3 +85,39 @@ tiscon2が使っている別プログラムが読み込めていないかもし�
 * 環境構築手順の各手順の、「インストールできたら」のステップの実行結果をスクリーンショットもしくはテキストとしてコピペして教えてください。
 * 表示されたメッセージが見えるIntelliJの画面のスクリーンショットを撮影してください。
 * Shiftキーを2回叩いて出てきた検索窓に「Terminal」と入力して出てきた結果を選択し、表示されたTerminalタブに 「mvn clean install」と入力してEnterしてください。その結果出てきたメッセージをすべてコピーして、テキストファイルに貼り付けて添付してください。
+
+## パッケージ enkan.system がありません
+tiscon2は様々なすでにできあがってるプログラムをダウンロードして使用しています。「パッケージ enkan.system がありません」のエラーは、それらがダウンロードできていない時に発生します。以下の順番で作業してみてください。
+
+### 再度ダウンロードを試みる(IntelliJから)
+[動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)と同様に `Reimport All Maven Projects` してみてください。
+解決したらこれで終わりです。
+
+### プロジェクトのビルド(IntelliJから)
+エラーが解決しない場合、tiscon2自体をリロードしてみましょう。IntelliJのプロジェクトツリーを右クリックして `Rebuild Module 'sigcolle'` をクリックしてください。
+
+![rebuild](image/rebuild_module.png)
+
+その後、前の手順である `Reimport All Maven Projects` を試してください。解決したらこれで終わりです。
+
+### 再度ダウンロードを試みる(コマンドライン)
+エラーが解決しない場合、プログラムのダウンロードを別の方法で試します。
+
+IntelliJで `Shift` キーを2回連続でカチカチッと押します。すると検索窓が表示されるので、
+
+![検索窓](image/install_intellij_add_git_config_1.png)
+
+そこに `terminal` と入力します。
+
+![terminalを探す](image/install_intellij_add_git_config_2.png)
+
+`Terminal` が検索結果に出てくるので、選択してください。するとコマンドラインの画面が表示されるので
+```sh
+mvn clean install
+```
+と入力します。
+
+BUILD SUCCESSと表示されたら、前の手順の `Rebuild module 'sigcolle'` と `Reimport All Maven Projects` してみてください。
+解決したらこれで終わりです。
+
+BUILD FAILUREと表示された場合、表示されたすべての内容をコピーして添付し、スタッフに問い合わせてください。
