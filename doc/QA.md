@@ -2,6 +2,7 @@
 ***
 * [mvnが正常に動作しない (mvn --versionコマンドが失敗する)](#mvnが正常に動作しない-mvn---versionコマンドが失敗する)
 * [IntelliJでのプロジェクトのcloneができない](#intellijでのプロジェクトのcloneができない)
+* [IntelliJのフォルダ表示と実際のフォルダ表示が違う]()
 * [動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)
 
 ***
@@ -50,6 +51,24 @@ forkできていなかった場合は、もう一度環境構築手順に従い�
 ### Gitインストールが完了していない
 コマンドプロンプトで `git --version` と入力し、gitのバージョン情報が表示されるか確認してください。
 表示されない場合、Gitのインストールに失敗しています。Gitのインストールを行ってください。
+
+## IntelliJのフォルダ表示と実際の内容が違う
+cloneが成功すると、 [tiscon2のトップページ](https://github.com/tiscon/tiscon2) に表示されるのと同じ、数個のフォルダとファイルが手に入ります。
+
+しかしIntelliJに表示される内容がそれに沿わないことがあります。その時は以下を順番に確認してください。
+
+### エクスプローラー(またはFinder)で該当のフォルダを表示した時、中身が入っているか？
+入っていなければcloneに失敗しています。フォルダを消して、再度cloneしてみましょう。
+
+### フォルダを表示すると中身が入っているのにIntelliJでは見られない
+IntelliJがフォルダを読み込むのに失敗しています。再度読み込みましょう。
+
+IntelliJの `File` > `New` > `Project from Existing Sources` を選択して、エクスプローラー(またはFinder)で確認したフォルダを開いて `Open` をクリックします。
+
+![new project from existing sources](image/new_project_from_existing_sources.png)
+
+表示される手順に従って進みます。`Project File already exists` と言われたら、上書きを選びましょう。
+プロジェクトが開いたら、IntelliJがフォルダを読み込むのを待ってから再度フォルダ構成を確認してください。
 
 ## 動作確認していると ClassCastException が出る
 tiscon2が使っている別プログラムが読み込めていないかもしれません。プログラムをリフレッシュしましょう。
