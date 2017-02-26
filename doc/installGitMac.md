@@ -1,7 +1,7 @@
 # Gitのインストール(Mac)
 
 ## 前提条件
-なし
+* [Mavenのインストール](installMavenMac.md)が終了していること。
 
 ## インストール
 [Terminalを起動](tipsForMac.md#terminalの起動方法)して
