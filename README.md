@@ -30,6 +30,13 @@ Javaで書いたプログラムを簡単に動せるようにするためのソ�
 * [Windowsマシン](doc/installMavenWin.md)
 * [Macマシン](doc/installMavenMac.md)
 
+### Git
+
+書いたプログラムを、変更履歴とともに保存するソフトウェアです。このようなツールはバージョン管理ツールと呼ばれます。
+
+* [Windowsマシン](doc/installGitWin.md)
+* [Macマシン](doc/installGitMac.md)
+
 ### IntelliJ IDEA
 
 Javaのプログラムを書くのに便利なすごいメモ帳です。これ1つでJavaのプログラム開発に関わる様々な作業をまとめて実行できる優れものです。
@@ -43,8 +50,7 @@ Javaのプログラムを書くのに便利なすごいメモ帳です。これ1
 
 作ったアプリケーションを世界に公開するためのサイトです。こういうサービスはPaaSと呼ばれたりします。
 
-* [Windowsマシン](doc/herokuForWin.md)
-* [Macマシン](doc/herokuForMac.md)
+* [Herokuの準備](doc/heroku.md)
 
 ### GitHub
 
