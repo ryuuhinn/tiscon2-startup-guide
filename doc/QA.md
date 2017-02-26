@@ -1,8 +1,11 @@
 #QA一覧
+
 ***
 * [mvnが正常に動作しない (mvn --versionコマンドが失敗する)](#mvnが正常に動作しない-mvn---versionコマンドが失敗する)
 * [IntelliJでのプロジェクトのcloneができない](#intellijでのプロジェクトのcloneができない)
+* [IntelliJのフォルダ表示と実際のフォルダ表示が違う](#intellijのフォルダ表示と実際の内容が違う)
 * [動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)
+* [パッケージ enkan.system がありません](#パッケージ-enkansystem-がありません)
 
 ***
 
@@ -51,6 +54,24 @@ forkできていなかった場合は、もう一度環境構築手順に従い�
 コマンドプロンプトで `git --version` と入力し、gitのバージョン情報が表示されるか確認してください。
 表示されない場合、Gitのインストールに失敗しています。Gitのインストールを行ってください。
 
+## IntelliJのフォルダ表示と実際の内容が違う
+cloneが成功すると、 [tiscon2のトップページ](https://github.com/tiscon/tiscon2) に表示されるのと同じ、数個のフォルダとファイルが手に入ります。
+
+しかしIntelliJに表示される内容がそれに沿わないことがあります。その時は以下を順番に確認してください。
+
+### エクスプローラー(またはFinder)で該当のフォルダを表示した時、中身が入っているか？
+入っていなければcloneに失敗しています。フォルダを消して、再度cloneしてみましょう。
+
+### フォルダを表示すると中身が入っているのにIntelliJでは見られない
+IntelliJがフォルダを読み込むのに失敗しています。再度読み込みましょう。
+
+IntelliJの `File` > `New` > `Project from Existing Sources` を選択して、エクスプローラー(またはFinder)で確認したフォルダを開いて `Open` をクリックします。
+
+![new project from existing sources](image/new_project_from_existing_sources.png)
+
+表示される手順に従って進みます。`Project File already exists` と言われたら、上書きを選びましょう。
+プロジェクトが開いたら、IntelliJがフォルダを読み込むのを待ってから再度フォルダ構成を確認してください。
+
 ## 動作確認していると ClassCastException が出る
 tiscon2が使っている別プログラムが読み込めていないかもしれません。プログラムをリフレッシュしましょう。
 
@@ -65,3 +86,39 @@ tiscon2が使っている別プログラムが読み込めていないかもし�
 * 環境構築手順の各手順の、「インストールできたら」のステップの実行結果をスクリーンショットもしくはテキストとしてコピペして教えてください。
 * 表示されたメッセージが見えるIntelliJの画面のスクリーンショットを撮影してください。
 * Shiftキーを2回叩いて出てきた検索窓に「Terminal」と入力して出てきた結果を選択し、表示されたTerminalタブに 「mvn clean install」と入力してEnterしてください。その結果出てきたメッセージをすべてコピーして、テキストファイルに貼り付けて添付してください。
+
+## パッケージ enkan.system がありません
+tiscon2は様々なすでにできあがってるプログラムをダウンロードして使用しています。「パッケージ enkan.system がありません」のエラーは、それらがダウンロードできていない時に発生します。以下の順番で作業してみてください。
+
+### 再度ダウンロードを試みる(IntelliJから)
+[動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)と同様に `Reimport All Maven Projects` してみてください。
+解決したらこれで終わりです。
+
+### プロジェクトのビルド(IntelliJから)
+エラーが解決しない場合、tiscon2自体をリロードしてみましょう。IntelliJのプロジェクトツリーを右クリックして `Rebuild Module 'sigcolle'` をクリックしてください。
+
+![rebuild](image/rebuild_module.png)
+
+その後、前の手順である `Reimport All Maven Projects` を試してください。解決したらこれで終わりです。
+
+### 再度ダウンロードを試みる(コマンドライン)
+エラーが解決しない場合、プログラムのダウンロードを別の方法で試します。
+
+IntelliJで `Shift` キーを2回連続でカチカチッと押します。すると検索窓が表示されるので、
+
+![検索窓](image/install_intellij_add_git_config_1.png)
+
+そこに `terminal` と入力します。
+
+![terminalを探す](image/install_intellij_add_git_config_2.png)
+
+`Terminal` が検索結果に出てくるので、選択してください。するとコマンドラインの画面が表示されるので
+```sh
+mvn clean install
+```
+と入力します。
+
+BUILD SUCCESSと表示されたら、前の手順の `Rebuild module 'sigcolle'` と `Reimport All Maven Projects` してみてください。
+解決したらこれで終わりです。
+
+BUILD FAILUREと表示された場合、表示されたすべての内容をコピーして添付し、スタッフに問い合わせてください。
