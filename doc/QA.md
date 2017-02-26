@@ -1,8 +1,9 @@
 #QA一覧
+
 ***
 * [mvnが正常に動作しない (mvn --versionコマンドが失敗する)](#mvnが正常に動作しない-mvn---versionコマンドが失敗する)
 * [IntelliJでのプロジェクトのcloneができない](#intellijでのプロジェクトのcloneができない)
-* [IntelliJのフォルダ表示と実際のフォルダ表示が違う]()
+* [IntelliJのフォルダ表示と実際のフォルダ表示が違う](#intellijのフォルダ表示と実際の内容が違う)
 * [動作確認していると ClassCastException が出る](#動作確認していると-classcastexception-が出る)
 
 ***
